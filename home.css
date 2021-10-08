@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre&display=swap');
+body {
+    font-family: 'Gemunu Libre', sans-serif;
+    margin: 0px;
+    background-color: #e2dfdf;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+}
+
+img {
+    height: 500px;
+    width: 400px;
+    border-radius: 15em;
+}
+
+.sectionSignging {
+    border: 2px solid grey;
+    margin: 5em;
+    padding: 1.3em;
+    margin-bottom: .5em;
+    background: whitesmoke;
+    border-radius: 3em;
+    color: orangered;
+}
+
+.sectionSPrograming {
+    border: 2px solid grey;
+    margin: 5em;
+    padding: 1.3em;
+    margin-bottom: .5em;
+    background: whitesmoke;
+    border-radius: 3em;
+    color: navy;
+}
+
+.sectionGraphicDesiging {
+    border: 2px solid grey;
+    margin: 5em;
+    padding: 1.3em;
+    margin-bottom: .5em;
+    background: whitesmoke;
+    border-radius: 3em;
+    color: #7bffdf;
+}
+
+.sectionSignging:hover {
+    -webkit-box-shadow: 14px 18px 15px -4px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 14px 18px 15px -4px rgba(0, 0, 0, 0.75);
+    box-shadow: 14px 18px 15px -4px rgba(0, 0, 0, 0.75);
+    background-image: url('https://images.unsplash.com/photo-1516280440614-37939bbacd81?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c2luZ2luZ3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80');
+    color: white;
+    background-position: center;
+    background-size: cover;
+}
+
+.sectionSPrograming:hover {
+    -webkit-box-shadow: 14px 18px 15px -4px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 14px 18px 15px -4px rgba(0, 0, 0, 0.75);
+    box-shadow: 14px 18px 15px -4px rgba(0, 0, 0, 0.75);
+    background-image: url('https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Y29kaW5nfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80');
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
+.sectionGraphicDesiging:hover {
+    -webkit-box-shadow: 14px 18px 15px -4px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 14px 18px 15px -4px rgba(0, 0, 0, 0.75);
+    box-shadow: 14px 18px 15px -4px rgba(0, 0, 0, 0.75);
+    background-image: url('https://wallpaperaccess.com/full/251485.jpg');
+    background-position: center;
+    background-size: cover;
+    color: rgb(230, 18, 18);
+}
